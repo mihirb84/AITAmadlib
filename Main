@@ -1,0 +1,62 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[]args){
+		Scanner input = new Scanner(System.in);
+		
+		String[] burh = new String[28];
+		
+		burh[0] = "sorree bad englis. So obligatory thees happened ";
+		burh[1] = "tommorrow";
+		burh[2] = " So bassicaly I was ";
+		System.out.print("Enter Verb ending in ing");
+		burh[3] = input.nextLine();
+		burh[4] = " in my ";
+		System.out.print("Enter a place in a house");
+		burh[5] = input.nextLine();
+		burh[6] = ", whin my ";
+		System.out.print("Enter person");
+		burh[7] = input.nextLine();
+		burh[8] = " valked in. ";
+		System.out.print("Enter pronoun");
+		burh[9] = input.nextLine() + " ";
+		System.out.print("Enter Verb ending in ed");
+		burh[10] = input.nextLine();
+		burh[11] = " me so I threw a ";
+		System.out.print("ENter noun");
+		burh[12] = input.nextLine();
+		burh[13] = " at ";
+		System.out.print("Enter body part");
+		burh[14] = input.nextLine();
+		burh[15] = " and i ended up havinga to call emergincee sirvises. ";
+		burh[16] = "At hopital, ze doctur ";
+		System.out.print("Enter verbing");
+		burh[17] = input.nextLine();
+		burh[18] = " that "+ burh[9]+ " hus ";
+		System.out.print("Enter noon");
+		burh[19] = input.nextLine();
+		burh[20] = "! It is a turminel de seas. "+ burh[9] +" now hise ";
+		System.out.print("Enter numbur");
+		burh[21] = input.nextLine();
+		burh[22] = " dais to liv. I give ";
+		System.out.print("Enter reflexivo pronoun");
+		burh[23] = input.nextLine();
+		System.out.print("Enter noun");
+		burh[24] = input.nextLine();
+		burh[25] = " to say ";
+		System.out.print("Enter phrase");
+		burh[26] = input.nextLine();
+		burh[27] = ".";
+		
+
+		System.out.println(burh[0] + burh[1] + burh[2]);
+		System.out.println(burh[3] + burh[4] + burh[5] + burh[6]);
+		System.out.println(burh[7] + burh[8] + burh[9] + burh[10]);
+		System.out.println(burh[11] + burh[12] + burh[13] + burh[14] + burh[15]);
+		System.out.println(burh[16] + burh[17] + burh[18] + burh[19]);
+		System.out.println(burh[20] + burh[21] + burh[22] + burh[23]);
+		System.out.println(burh[24] + burh[25] + burh[26] + burh[27]);
+		System.out.println("AITA");
+	}
+}
