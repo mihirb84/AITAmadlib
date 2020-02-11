@@ -4,9 +4,10 @@ public class Main {
 
 	public static void main(String[]args){
 		Scanner input = new Scanner(System.in);
-		
+		int x =3;
 		String[] burh = new String[28];
 		
+		if(x == 2){
 		burh[0] = "sorree bad englis. So obligatory thees happened ";
 		burh[1] = "tommorrow";
 		burh[2] = " So bassicaly I was ";
@@ -59,4 +60,33 @@ public class Main {
 		System.out.println(burh[24] + burh[25] + burh[26] + burh[27]);
 		System.out.println("AITA");
 	}
+		
+		if(x==3){
+		burh[0]= "I was minding my own business at the park, when a ";
+		System.out.print("Enter type of person");
+		burh[1] = input.nextLine();
+		burh[2] = " fell into the river in lego city. HEY ";
+		System.out.print("Enter verb");
+		burh[3] = input.nextLine();
+		burh[4] = " the ";
+		System.out.print("Enter noun");
+		burh[5] = input.nextLine();
+		burh[6] = " in order to ";
+		System.out.print("Enter verb");
+		burh[7] = input.nextLine();
+		burh[8] = " him. The";
+		System.out.print("Enter adjective");
+		burh[9] = input.nextLine();
+		System.out.print("Enter noun");
+		burh[10] = input.nextLine();
+		burh[11] = "set from Lego ";
+		System.out.print("Enter noun thing place");
+		burh[12] = input.nextLine();
+		
+		System.out.println(burh[0] + burh[1]);
+		System.out.println(burh[2] + burh[3] + burh[4] + burh[5]);
+		System.out.println(burh[6] + burh[7] + burh[8] + burh[9]);
+		System.out.println(burh[10] + burh[11] + burh[12]);
+	}
+}
 }
